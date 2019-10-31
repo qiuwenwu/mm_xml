@@ -1,0 +1,28 @@
+{
+  "name": "mm_xml",
+  "version": "1.0.2",
+  "description": "这是超级美眉xml序列化、反序列化帮助模块，适用于koa框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiuwenwu/mm_xml.git"
+  },
+  "keywords": [
+    "mvc",
+    "web",
+    "api",
+    "xml"
+  ],
+  "author": "邱文武",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiuwenwu/mm_xml/issues"
+  },
+  "homepage": "https://github.com/qiuwenwu/mm_xml#readme",
+  "dependencies": {
+    "xml2js-parser": "^1.1.1"
+  }
+}
