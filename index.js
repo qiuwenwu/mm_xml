@@ -49,7 +49,7 @@ function parse(request, options) {
 		})
 }
 
-module.exports = function(options) {
+function Xml(options) {
 	if (typeof options !== 'object') {
 		options = {}
 	}
@@ -90,4 +90,6 @@ module.exports = function(options) {
 		}
 		await next();
 	}
-}
+};
+
+module.exports = Xml;

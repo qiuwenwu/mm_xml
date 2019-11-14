@@ -1,6 +1,6 @@
 {
   "name": "mm_xml",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "这是超级美眉xml序列化、反序列化帮助模块，适用于koa框架",
   "main": "index.js",
   "scripts": {
