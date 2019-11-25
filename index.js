@@ -63,7 +63,7 @@ function Xml(options) {
 		 */
 		if (ctx.request[bodyKey] === undefined && /^(POST|PUT|PATCH)$/i.test(ctx.method)) {
 			var type = ctx.header['content-type'];
-			if (type.indexOf('xml') !== -1) {
+			if(type && type.indexOf('xml') !== -1) {
 				if (!options.encoding && ctx.request.charset) {
 					options.encoding = ctx.request.charset
 				}
