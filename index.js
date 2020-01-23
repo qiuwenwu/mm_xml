@@ -34,7 +34,7 @@ function parse(request, options) {
 		encoding: 'utf8',
 		xmlOptions: {}
 	}, options)
-	const len = request.headers['content-length']
+	var len = request.headers['content-length']
 	if (len) {
 		options.length = len;
 	}
