@@ -1,6 +1,6 @@
 {
     "name": "mm_xml",
-    "version": "1.0.8",
+    "version": "1.1.0",
     "description": "这是超级美眉xml序列化、反序列化帮助模块，适用于koa框架",
     "main": "index.js",
     "scripts": {
@@ -23,7 +23,7 @@
     },
     "homepage": "https://github.com/qiuwenwu/mm_xml#readme",
     "dependencies": {
-        "mm_expand": "^1.4.3",
+        "mm_expand": "^1.4.5",
         "xml2js-parser": "^1.1.1"
     }
 }
